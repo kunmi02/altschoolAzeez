@@ -1,0 +1,139 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #333;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Header Section */
+.header {
+  background-color: #fff;
+  flex: 1;
+  padding: 20px 20rem; /* Creates margin to the left */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.highlight {
+  color: #00a000; /* Highlighted text color */
+  font-weight: bold;
+}
+
+/* Main Section */
+.main {
+  flex: 1;
+  background-color: #666;
+  padding: 20px 20rem; /* Creates margin to the left */
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 700px;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card h2 {
+  background-color: #ffcc00;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.25rem;
+  margin: 0;
+  position: absolute;
+  top: 1rem;
+  left: -1rem;
+  width: auto;
+}
+
+.card p {
+  font-size: 1rem;
+  margin: 0;
+  padding-top: 2.5rem;
+}
+
+/* Media Queries */
+
+/* Tablet Screen */
+@media screen and (max-width: 768px) {
+  .header, .main {
+    padding: 20px 10%;
+  }
+
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .header p {
+    font-size: 0.9rem;
+  }
+
+  .card h2 {
+    font-size: 1rem;
+    left: -0.5rem;
+    width: calc(100% + 1rem);
+  }
+
+  .card p {
+    font-size: 0.9rem;
+    padding-top: 2rem;
+  }
+}
+
+/* Mobile Screen */
+@media screen and (max-width: 480px) {
+  .header, .main {
+    padding: 20px;
+  }
+
+  .header h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .header p {
+    font-size: 0.85rem;
+    text-align: center;
+  }
+
+  .card h2 {
+    font-size: 0.9rem;
+    text-align: left;
+    left: 1.5rem;
+    width: auto;
+  }
+
+  .card p {
+    font-size: 0.8rem;
+    padding-top: 2rem;
+  }
+}

@@ -1,0 +1,74 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1c1c1c; /* Dark background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #d5d4f2; /* Light purple background */
+  padding: 50px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  position: relative;
+  max-width: 350px;
+}
+
+.badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #ffed8b; /* Yellow background */
+  color: #333;
+  font-weight: bold;
+  font-size: 0.8rem;
+  padding: 5px 10px;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.product-image {
+  width: 100%;
+  display: block;
+}
+
+.content {
+  padding: 20px;
+  text-align: left;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.series {
+  font-size: 0.9rem;
+  font-weight: normal;
+  color: #555;
+}
+
+p {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.5;
+}
