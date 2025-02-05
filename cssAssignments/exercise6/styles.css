@@ -1,0 +1,160 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fc;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.login-btn {
+  background: none;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.signup-btn {
+  background: #2a7ddf;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: white;
+}
+
+.hero h1 {
+  font-size: 32px;
+}
+
+.highlight {
+  color: #2a7ddf;
+}
+
+.cta-buttons {
+  margin-top: 20px;
+}
+
+.learn-more {
+  background: none;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Features Section */
+.features {
+  text-align: center;
+  padding: 50px;
+  background: #f2f8f7;
+}
+
+.feature-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.feature {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+/* Pricing Section */
+.pricing {
+  text-align: center;
+  padding: 50px;
+}
+
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.plan {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.professional {
+  background: #2a7ddf;
+  color: white;
+}
+
+.select-plan {
+  margin-top: 20px;
+  background: #2a7ddf;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* FAQ Section */
+.faq {
+  text-align: center;
+  padding: 50px;
+  background: #f8f9fc;
+}
+
+.faq-item {
+  background: white;
+  padding: 15px;
+  border-radius: 5px;
+  width: 50%;
+  margin: auto;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: white;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+}

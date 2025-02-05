@@ -1,0 +1,206 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fc;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 80px;
+  align-items: center;
+  background: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+  width: 120px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.account-btn {
+  padding: 8px 15px;
+  border: 1px solid black;
+  background: white;
+  cursor: pointer;
+}
+
+/* Container */
+.container {
+  display: flex;
+  max-width: 900px;
+  margin: 40px auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Checkout Form */
+.checkout-form {
+  flex: 1.5;
+  padding: 40px;
+  background: white;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+h3 {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.number {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background: #2a7ddf;
+  color: white;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* Input Fields */
+.form-group {
+  display: flex;
+  gap: 15px;
+}
+
+.input-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+input, select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Credit Card Box */
+.credit-card-box {
+  display: flex;
+  gap: 10px;
+}
+
+.credit-card-box input {
+  flex: 1;
+}
+
+/* Checkout Button */
+.checkout-btn {
+  background: #1c8858;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.checkout-btn:hover {
+  background: #167346;
+}
+
+/* Support Section */
+.support {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.help-icon {
+  font-size: 14px;
+  font-weight: bold;
+  background: #2a7ddf;
+  color: white;
+  border-radius: 50%;
+  padding: 3px 7px;
+}
+
+/* Powered By */
+.powered-by {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+/* Pricing Box */
+.pricing-box {
+  background: #2a7ddf;
+  color: white;
+  padding: 40px;
+  flex: 1;
+}
+
+.pricing-box h1 {
+  font-size: 36px;
+}
+
+.pricing-box h1 span {
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+blockquote {
+  font-style: italic;
+  border-left: 4px solid white;
+  padding-left: 10px;
+  margin: 20px 0;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.testimonial img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin: 20px 0;
+}
+
+footer a {
+  color: #2a7ddf;
+}
